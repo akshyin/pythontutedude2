@@ -10,9 +10,7 @@ except ValueError:
     print("Error in reading number")
 
 if not errorfound:
-    if(number<0):
-        print("Only positive number allowed")
-    elif(number%2==0):
+    if(number%2==0):
         print(number," is even number")
     else:
         print(number," is odd number")
